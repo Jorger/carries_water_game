@@ -24,7 +24,7 @@ $(function()
                                 posPres : {x : 0, y : 0},
                                 posFigure : [0, 0],
                                 numFigure   : 0
-                          };
+                          },
         undoMovement = [];
 
     //Para el escenario...
