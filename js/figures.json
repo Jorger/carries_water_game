@@ -1,0 +1,143 @@
+[
+    {
+        "val"       : 1,
+        "img"       : "1_bloque.jpg",
+        "move"      : true
+    },
+    {
+        "val"       : 2,
+        "img"       : "2_inicio_izquierda.jpg",
+        "move"      : false,
+        "dire"      : 3,
+        "posible"   : {"right" : [18, 20, 10, 14, 12, 16]}
+    },
+    {
+        "val"       : 3,
+        "img"       : "3_inicio_arriba.jpg",
+        "move"      : false,
+        "dire"      : 4,
+        "posible"   : {"bottom" : [12, 13, 16, 17, 19, 21]}
+    },
+    {
+        "val"       : 4,
+        "img"       : "4_inicio_derecha.jpg",
+        "move"      : false,
+        "dire"      : 1,
+        "posible"   : {"left" : [11, 13, 15, 17, 18, 20]}
+    },
+    {
+        "val"       : 5,
+        "img"       : "5_inicio_abajo.jpg",
+        "move"      : false,
+        "dire"      : 2,
+        "posible"   : {"top" : [10, 11, 14, 15, 19, 21]}
+    },
+    {
+        "val"       : 6,
+        "img"       : "6_objetivo_izquierda.jpg",
+        "dire"      : 3,
+        "move"      : false
+    },
+    {
+        "val"       : 7,
+        "img"       : "7_objetivo_arriba.jpg",
+        "dire"      : 2,
+        "move"      : false
+    },
+    {
+        "val"       : 8,
+        "img"       : "8_objetivo_derecha.jpg",
+        "dire"      : 1,
+        "move"      : false
+    },
+    {
+        "val"       : 9,
+        "img"       : "9_objetivo_abajo.jpg",
+        "dire"      : 4,
+        "move"      : false
+    },
+    {
+        "val"       : 10,
+        "img"       : "10_curva_abajo_izquierda.jpg",
+        "move"      : true,
+        "arrives"   : {"right" : 4, "top" : 1},
+        "posible"   : {"bottom" : [9, 12, 13, 16, 17, 19, 21], "left" : [8, 11, 13, 15, 17, 18, 20]}
+    },
+    {
+        "val"       : 11,
+        "img"       : "11_curva_abajo_derecha.jpg",
+        "move"      : true,
+        "arrives"   : {"left" : 4, "top" : 3},
+        "posible"   : {"bottom" : [9, 12, 13, 16, 17, 19, 21], "right" : [6, 10, 12, 14, 16, 18, 20]}
+    },
+    {
+        "val"       : 12,
+        "img"       : "12_curva_arriba_izquierda.jpg",
+        "move"      : true,
+        "arrives"   : {"bottom" : 1, "right" : 2},
+        "posible"   : {"left" : [8, 11, 13, 15, 17, 18, 20], "top" : [7, 10, 11, 14, 15, 19, 21]}
+    },
+    {
+        "val"       : 13,
+        "img"       : "13_curva_arriba_derecha.jpg",
+        "move"      : true,
+        "arrives"   : {"bottom" : 3, "left" : 2},
+        "posible"   : {"right" : [6, 10, 12, 14, 16, 18, 20], "top" : [7, 10, 11, 14, 15, 19, 21]}
+    },
+    {
+        "val"       : 14,
+        "img"       : "14_curva_abajo_izquierda_bloqueada.jpg",
+        "move"      : false,
+        "arrives"   : {"right" : 4, "top" : 1},
+        "posible"   : {"bottom" : [9, 12, 13, 16, 17, 19, 21], "left" : [8, 11, 13, 15, 17, 18, 20]}
+    },
+    {
+        "val"       : 15,
+        "img"       : "15_curva_abajo_derecha_bloqueada.jpg",
+        "move"      : false,
+        "arrives"   : {"left" : 4, "top" : 3},
+        "posible"   : {"bottom" : [9, 12, 13, 16, 17, 19, 21], "right" : [6, 10, 12, 14, 16, 18, 20]}
+    },
+    {
+        "val"       : 16,
+        "img"       : "16_curva_arriba_izquierda_bloqueada.jpg",
+        "move"      : false,
+        "arrives"   : {"bottom" : 1, "right" : 2},
+        "posible"   : {"left" : [8, 11, 13, 15, 17, 18, 20], "top" : [7, 10, 11, 14, 15, 19, 21]}
+    },
+    {
+        "val"       : 17,
+        "img"       : "17_curva_arriba_derecha_bloqueada.jpg",
+        "move"      : false,
+        "arrives"   : {"bottom" : 3, "left" : 2},
+        "posible"   : {"right" : [6, 10, 12, 14, 16, 18, 20], "top" : [7, 10, 11, 14, 15, 19, 21]}
+    },
+    {
+        "val"       : 18,
+        "img"       : "18_linea_horizontal.jpg",
+        "move"      : true,
+        "arrives"   : {"left" : 1, "right" : 3},
+        "posible"   : {"left" : [8, 11, 13, 15, 17, 18, 20], "right" : [6, 10, 12, 14, 16, 18, 20]}
+    },
+    {
+        "val"       : 19,
+        "img"       : "19_linea_vertical.jpg",
+        "move"      : true,
+        "arrives"   : {"top" : 2, "bottom" : 4},
+        "posible"   : {"top" : [7, 10, 11, 14, 15, 19, 21], "bottom" : [9, 12, 13, 16, 17, 19, 21]}
+    },
+    {
+        "val"       : 20,
+        "img"       : "20_linea_horizontal_bloqueada.jpg",
+        "move"      : false,
+        "arrives"   : {"left" : 1, "right" : 3},
+        "posible"   : {"left" : [8, 11, 13, 15, 17, 18, 20], "right" : [6, 10, 12, 14, 16, 18, 20]}
+    },
+    {
+        "val"       : 21,
+        "img"       : "21_linea_vertical_bloqueada.jpg",
+        "move"      : false,
+        "arrives"   : {"top" : 2, "bottom" : 4},
+        "posible"   : {"top" : [7, 10, 11, 14, 15, 19, 21], "bottom" : [9, 12, 13, 16, 17, 19, 21]}
+    }
+]

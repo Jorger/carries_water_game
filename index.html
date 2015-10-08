@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" href="img/icono.png"/>
+    <title>Carries Water</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+    <![endif]-->
+    <link rel = "stylesheet" type = "text/css" href = "css/estilos.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/sweet-alert.css" >
+    <link rel = "manifest" href = "manifest.json">
+</head>
+<body>
+    <div id="fade"></div>
+	<div id="loading"></div>
+    <div id = "carcasa">
+        <div class="github-fork-ribbon-wrapper left-bottom fork">
+            <div class="github-fork-ribbon">
+                <a href = "https://github.com/Jorger" target="_blank">Fork me on GitHub</a>
+            </div>
+        </div>
+        <div id = "levels">
+            <div id = "divtitle">Carries Water
+                <br>
+                <a href = "https://twitter.com/ostjh" target="_blank">By @ostjh</a></div>
+            <div id = "listlevels"></div>
+        </div>
+		<canvas id = "lcd"></canvas>
+        <div align = "center" id = "divLevel">
+            <div class = "title">Level</div>
+            <div class = "value" id = "level">00</div>
+        </div>
+        <div align = "center" id = "divMove">
+            <div class = "title">Movements</div>
+            <div class = "value" id = "move">00</div>
+        </div>
+        <div id = "btnundo"></div>
+        <div id = "btnlevel"></div>
+	</div>
+    <script src = "js/sweet-alert.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src = "js/script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+</body>
+</html>
